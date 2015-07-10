@@ -1,0 +1,104 @@
+/* #Basic Styles
+================================================== */
+	body { 
+		background: url(../admin/images/bg.gif);
+		font: 12px Helvetica, Arial, sans-serif;
+		color: #444; 
+		-webkit-font-smoothing: antialiased;  /*Fix for webkit rendering */
+		-webkit-text-size-adjust: none;
+ }
+ /* #Page Styles
+================================================== */
+	.notice {
+		width: 100%;
+		background: #DD7575;;
+		border-bottom: 4px solid #eaeff3;
+		color: #fff;
+		position: fixed;
+		top: 0;
+		font-size: 14px;
+		font-weight: bold;
+		height: 45px;
+		-moz-box-shadow:0px 0px 3px 1px rgba(0,0,0,0.3);
+		-webkit-box-shadow:0px 0px 3px 1px rgba(0,0,0,0.3);
+		box-shadow:0px 0px 3px 1px rgba(0,0,0,0.3);
+	}
+	
+	.notice p.warn {
+		text-align: center;
+		line-height: 45px;
+	}
+	
+	.notice a.close {
+		width: 9px;
+		height: 9px;
+		float: right;
+		background: url(../images/close.png) no-repeat top left;
+		text-indent: -9999px;
+		margin-right: 15px;
+		margin-top: 20px;
+	}
+	
+	.notice a.close:hover {
+		background: url(../images/close-hover.png) no-repeat top left;		
+	}
+ 	.form-bg {
+		width: 370px;
+		/*height: 248px;*/
+		-moz-border-radius:9px;
+		-webkit-border-radius:9px;
+		border-radius:9px;
+		margin: 150px auto;
+		background: url(../admin/images/form-bg.png) top left;
+		padding: 8px 0 0 8px; 
+		}
+	
+	.form-bg form {
+		width: 360px;
+		height: 239px;
+		background: #fff url(../admin/images/bg_form.jpg) repeat-x top left;		
+		-moz-border-radius:4px;
+		-webkit-border-radius:4px;
+		border-radius:4px;
+		-moz-box-shadow:0px 1px 3px 2px rgba(0,0,0,0.1);
+		-webkit-box-shadow:0px 1px 3px 2px rgba(0,0,0,0.1);
+		box-shadow:0px 1px 3px 2px rgba(0,0,0,0.1);
+	}
+
+ 	/* login page */
+	.form-bg form h2 {
+		font-size: 14px;
+		font-weight: bold;
+		color: #555555;
+		font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-shadow: 0 1px 0 #fff;
+		filter: dropshadow(color=#fff, offx=0, offy=1);
+		line-height: 45px;
+		margin-bottom: 24px;
+		margin-left:25px;
+	}
+	
+	input[type="text"], input[type="password"]{
+		box-shadow: 0px 0px 0px 4px #f2f5f7;
+		width: 280px;
+		height: 33px;
+		padding: 0 10px 0 10px;
+		margin: 0 auto;
+		color: #aeaeae;
+		border: 1px solid #bec2c4;
+	}
+	
+	input[type="text"]:focus, input[type="password"]:focus{
+		box-shadow: 0px 0px 0px 4px #e0f1fc;
+		border:1px solid #7dc6dd;
+	}
+	
+	input[type="checkbox"] {
+		vertical-align: middle;
+	}
+	button {
+		float: right;
+		margin-right: 24px;
+		cursor:pointer;
+	}
+	.seccion { margin: 0 0 20px 40px; }
